@@ -325,12 +325,14 @@ a {
     margin-top: 130px;
 }
 
+.course .title,
 .features .title {
     color: #767e7e;
     font-size: 1.2rem;
     font-weight: 700;
 }
 
+.course .heading,
 .features .heading {
     margin-top: 18px;
     width: 577px;
@@ -361,7 +363,7 @@ a {
 }
 
 .features .block-item .title {
-    margin-top: 26px;   
+    margin-top: 26px;
     color: #0d1111;
     font-size: 2rem;
     font-weight: 600;
@@ -378,4 +380,143 @@ a {
 
 .features .block-item:nth-child(1) .desc {
     width: 168px;
+}
+
+/* ===================== Features ===================== */
+.course {
+    margin-top: 130px;
+}
+
+.course .wrap {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course .wrap .desc {
+    width: 525px;
+
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.77778; /* 177.778% */
+}
+
+.course .wrap .link {
+    color: #1ebfc1;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.course .block-list {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.course .block-item {
+    width: 33.33%;
+    position: relative;
+}
+
+.course .bg-img {
+    height: 393px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #d0efed;
+}
+
+.course .block-item .course-img {
+    width: 100%;
+    height: 393px;
+    opacity: 0.7;
+    object-fit: cover;
+}
+
+.course .block-item .block-info {
+    position: absolute;
+    left: 17px;
+    bottom: -124px;
+    width: 325px;
+    padding: 18px 25px 29px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+}
+
+.course .block-info .title {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.course .block-info .cost {
+    padding-top: 16px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.course .block-info .cost strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.course .block-info .sub-title {
+    padding-top: 6px;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.course .block-info .row {
+    display: flex;
+    margin-top: 18px;
+}
+
+.course .row .month,
+.course .row .class {
+    position: relative;
+    padding: 0 16px;
+    padding-right: 10px;
+
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.course .row .month {
+    padding-right: 0;
+}
+
+.course .row .class::before,
+.course .row .month::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #1ebfc1;
 }
