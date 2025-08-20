@@ -33,6 +33,13 @@ a {
     line-height: 1.116129;
 }
 
+.heading.lv2 {
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33333;
+}
+
 .btn {
     display: inline-block;
     text-align: center;
@@ -271,7 +278,6 @@ a {
     top: 500px;
     right: 45px;
     padding: 17px 35px;
-    width: 207px;
     border-radius: 24px;
     background: #fefefd;
     box-shadow: 0 12px 80px 0 rgba(0, 0, 0, 0.05);
@@ -312,4 +318,64 @@ a {
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
+}
+
+/* ===================== Features ===================== */
+.features {
+    margin-top: 130px;
+}
+
+.features .title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .heading {
+    margin-top: 18px;
+    width: 577px;
+}
+
+.features .desc {
+    margin-top: 18px;
+    width: 590px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.features .block-list {
+    margin-top: 70px;
+    display: flex;
+}
+
+.features .block-item {
+    padding: 10px 0;
+    width: 33.33%;
+}
+
+.features .block-item img {
+    width: 102px;
+    height: 106px;
+    object-fit: cover;
+}
+
+.features .block-item .title {
+    margin-top: 26px;   
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features .block-item .desc {
+    margin-top: 16px;
+    width: 224px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6875; /* 168.75% */
+}
+
+.features .block-item:nth-child(1) .desc {
+    width: 168px;
 }
