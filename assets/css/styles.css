@@ -725,3 +725,41 @@ a {
     object-fit: cover;
     border-radius: 50%;
 }
+
+/* ===================== Action ===================== */
+.action {
+    margin-top: 130px;
+    background: #def6f5;
+}
+
+.action .body-action {
+    display: flex;
+    align-items: center;
+    padding: 76px 0 88px;
+}
+
+.action .info{
+    margin-right: 410px;
+}
+
+.action .body-action .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.action .body-action .btn-act {
+    min-width: 186px;
+    border-radius: 14px;
+    background: #2ac9bf;
+
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 68px;
+}
