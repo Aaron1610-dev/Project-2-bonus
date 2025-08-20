@@ -522,3 +522,36 @@ a {
     background-color: #1ebfc1;
 }
 
+/* ===================== Statistics ===================== */
+.statistics {
+    margin: 265px auto 0;
+}
+
+.statistics .block-list {
+    display: flex;
+    justify-content: space-between;
+    width: 862px;
+    margin: auto;
+}
+
+.statistics .block-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics .block-item .value {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.statistics .block-item .sub-value {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
